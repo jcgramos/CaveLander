@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <item id="start">
+        <en>Start</en>
+        <es>Jugar</es>
+    </item>
+    <item id="exit">
+        <en>Exit</en>
+        <es>Salir</es>
+    </item>
+    <item id="goPremium">
+        <en>Go premium</en>
+        <es>Mejorar</es>
+    </item>
+    <item id="gameover">
+        <en>GAME OVER</en>
+    </item>
+    <item id="buylives">
+        <en>BUY new lives</en>
+        <es>Comprar vidas</es>
+    </item>
+
+</data>
+

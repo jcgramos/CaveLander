@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset_4" tilewidth="32" tileheight="32">
+  <image source="tileset_4.png" width="512" height="320"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4KIh5gFiSQbaAp1ROxgagbgJiJuBuAWIW5FoZHEbCuyIB2JOIJ4MxFOAeCoDJH5BYtVQPIWBsjgH2ZGAJhYJxDFoYpSEFTY7KoG4hsZ2YAP47PAEYi88GBSXBUjqkdMAujpcdoD8XUUAI4fLRCCexABJA8hqRvM5aXZYArEVDTEozgEzMSQb
+  </data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1" width="25" height="15">
+  <object type="landerPoint" x="61" y="106" width="111" height="15">
+   <properties>
+    <property name="start" value=""/>
+   </properties>
+  </object>
+  <object x="-7" y="-9" width="813" height="24"/>
+  <object x="-18" y="-18" width="36" height="515"/>
+  <object x="-41" y="465" width="856" height="25"/>
+  <object x="782" y="-27" width="32" height="517"/>
+  <object x="459" y="145" width="334" height="30"/>
+  <object x="620" y="174" width="41" height="66"/>
+  <object x="591" y="302" width="204" height="33"/>
+  <object x="460" y="179" width="36" height="158"/>
+  <object x="207" y="301" width="250" height="36"/>
+  <object type="landerPoint" x="636" y="90" width="117" height="12"/>
+  <object type="key" x="709" y="200" width="30" height="33">
+   <properties>
+    <property name="portico" value="puerta"/>
+   </properties>
+  </object>
+  <object name="puerta" type="portico" x="475" y="18" width="10" height="127">
+   <properties>
+    <property name="closed" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

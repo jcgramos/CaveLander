@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset_4" tilewidth="32" tileheight="32">
+  <image source="tileset_4.png" width="512" height="320"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4KIh5gFiSQbaAp1ROxgagbgJiJuBuAWIW5FoZHEbCuyIB2JOIJ4MxFOAeCoQV0FxNRSDxCmJc5AdCUSooySsRpodlMT5fCBeQIS60XxOmh2WQGxFBrYhUi9IHQAWJBgH
+  </data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1" width="25" height="15">
+  <object type="landerPoint" x="61" y="160" width="111" height="15">
+   <properties>
+    <property name="start" value=""/>
+   </properties>
+  </object>
+  <object x="-7" y="-9" width="813" height="24"/>
+  <object x="-18" y="-18" width="36" height="515"/>
+  <object x="-41" y="465" width="856" height="25"/>
+  <object x="782" y="-27" width="32" height="517"/>
+  <object x="459" y="145" width="334" height="30"/>
+  <object type="landerPoint" x="636" y="90" width="117" height="12"/>
+  <object type="key" x="709" y="200" width="30" height="33">
+   <properties>
+    <property name="portico" value="puerta"/>
+   </properties>
+  </object>
+  <object name="puerta" type="portico" x="475" y="18" width="10" height="127">
+   <properties>
+    <property name="closed" value=""/>
+   </properties>
+  </object>
+  <object x="463" y="174" width="37" height="166"/>
+  <object type="laser" x="474" y="433" width="8" height="12"/>
+ </objectgroup>
+</map>
